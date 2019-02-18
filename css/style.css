@@ -65,7 +65,7 @@ header {
   font-size: 16px;
   margin-top: 15px;
   color: #555555;
-  width: 400px;
+  width: auto;
 }
 
 .icons__item {
@@ -100,7 +100,7 @@ header {
 
 .title__text {
   font-size: 20px;
-  width: 780px;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -111,4 +111,92 @@ header {
 
 .feature__text {
   color: #898989;
+}
+
+/* third section */
+
+.support {
+  background: #000;
+}
+
+.yellow {
+  color: #fcdb00;
+}
+
+.sub_yellow {
+  color: #898989;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    background: #fff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 0;
+    margin-right:21px;
+    border: 0;
+    padding-left:23px;
+    outline: none;
+}
+
+.form__btn {
+    background: #fcdb00;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+/* footer */
+
+.footer {
+  background: #000;
+  padding:50px 0 94px;
+}
+
+.credits {
+  color: #fff;
+  font-size: 16px;
+  width: 184px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px){
+.menu__item {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.menu {
+  flex-direction: column;
+}
+
+}
+
+@media screen and (max-width: 700px) {
+  .form__input {
+    width: 100%;
+    margin-right: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .offer {
+    margin-top: 30px;
+}
+  .tone {
+    display: block;
+        margin: 0 auto;
+  }
 }
